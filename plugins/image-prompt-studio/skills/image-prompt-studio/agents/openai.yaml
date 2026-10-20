@@ -1,0 +1,4 @@
+interface:
+  display_name: "提示词工作室"
+  short_description: "选择 MOSS、Krea 2 或 Anima 的规则，写词、看图反推与改写"
+  default_prompt: "使用 $image-prompt-studio，先展示可以选择的模型、提示词规则和任务。"

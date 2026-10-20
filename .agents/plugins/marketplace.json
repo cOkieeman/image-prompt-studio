@@ -1,0 +1,12 @@
+{
+  "name": "image-prompt-studio",
+  "interface": {"displayName": "提示词工作室"},
+  "plugins": [
+    {
+      "name": "image-prompt-studio",
+      "source": {"source": "local", "path": "./plugins/image-prompt-studio"},
+      "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"},
+      "category": "Productivity"
+    }
+  ]
+}

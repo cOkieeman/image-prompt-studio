@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+plugins/image-prompt-studio/rulepacks/moss-community/
+plugins/image-prompt-studio/rulepacks/krea2-prompt-suite/
+plugins/image-prompt-studio/rulepacks/anima-prompt-crafter/
+plugins/image-prompt-studio/rulepacks/.import-*/

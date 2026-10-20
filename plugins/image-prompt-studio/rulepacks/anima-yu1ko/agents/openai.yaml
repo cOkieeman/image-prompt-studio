@@ -1,0 +1,7 @@
+interface:
+  display_name: "Anima Prompt"
+  short_description: "Create Anima-ready Danbooru prompts"
+  default_prompt: "Use $anima-prompt to turn my image idea into an Anima-ready positive prompt, negative prompt, and generation settings."
+
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "image-prompt-studio",
+  "version": "0.2.0",
+  "author": {"name": "cOkieeman", "url": "https://github.com/cOkieeman"},
+  "homepage": "https://github.com/cOkieeman/image-prompt-studio",
+  "repository": "https://github.com/cOkieeman/image-prompt-studio",
+  "description": "A local menu for MOSS, Krea 2 and Anima prompt writing, reverse prompting and revision, with seven selectable rule profiles.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "提示词工作室",
+        "shortDescription": "先选模型和规则，再写词、看图反推或修改提示词",
+        "longDescription": "统一的对话式图像提示词入口。提供三个模型族、七个规则选项；四套内置、三套可按需从原仓库导入。支持写词、看图反推、改写、修复、转换和 MOSS Layout。",
+        "developerName": "cOkieeman",
+        "category": "Productivity",
+        "capabilities": [],
+        "defaultPrompt": "使用 $image-prompt-studio，先告诉我能选择哪些模型、提示词规则和任务。"
+      }
+    }
+  }
+}
